@@ -1,3 +1,6 @@
+
+
+
 body{
     margin: 0;
 }
@@ -90,7 +93,6 @@ h2{
 .div-form{
     border: 2px solid white;
     background-color: white;
-    height: 350px;
     margin-top: 20px  ;
     padding: 50px 20px;
     margin-left: 10px;
@@ -175,3 +177,15 @@ img{
     grid-template-columns: 20% 80%;
     padding-top: 10px;  
 }
+@media screen and  (max-width: 760px){
+.container1{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    margin-top: auto;
+}
+.container2{
+    margin-top: 15px;
+}
+}
+    
